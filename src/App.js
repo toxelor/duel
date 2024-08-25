@@ -15,8 +15,6 @@ function App() {
 	const [firstSpeed, setFirstSpeed] = useState(1)
 	const [secondFirerate, setSecondFirerate] = useState(1)
 	const [secondSpeed, setSecondSpeed] = useState(1)
-	const [firstSpells, setFirstSpells] = useState([])
-	const [secondSpells, setSecondSpells] = useState([])
 
 	const [firstHero, setFirstHero] = useState({
 													firerate: 5, 
