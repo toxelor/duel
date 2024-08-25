@@ -153,11 +153,6 @@ function App() {
 	const Hero1 = new Hero(firstHero.firerate, firstHero.color, firstHero.speed, firstHero.startX, firstHero.startY, firstHero.direction)
 
 	const Hero2 = new Hero(secondHero.firerate, secondHero.color, secondHero.speed, secondHero.startX, secondHero.startY, secondHero.direction)
-
-	console.log(Hero1)
-	console.log(Hero2)
-
-	//const newSpell = new Spell("", 100, 200 + 10, 1)
 	
 	const circle = (ctx, x,y,r) => {
 		ctx.beginPath();
