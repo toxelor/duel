@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/duel/static/css/main.07544fc4.css",
-    "main.js": "/duel/static/js/main.21214f91.js",
+    "main.js": "/duel/static/js/main.174e4820.js",
     "static/js/453.d0c1eda3.chunk.js": "/duel/static/js/453.d0c1eda3.chunk.js",
     "index.html": "/duel/index.html",
     "main.07544fc4.css.map": "/duel/static/css/main.07544fc4.css.map",
-    "main.21214f91.js.map": "/duel/static/js/main.21214f91.js.map",
+    "main.174e4820.js.map": "/duel/static/js/main.174e4820.js.map",
     "453.d0c1eda3.chunk.js.map": "/duel/static/js/453.d0c1eda3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.07544fc4.css",
-    "static/js/main.21214f91.js"
+    "static/js/main.174e4820.js"
   ]
 }
