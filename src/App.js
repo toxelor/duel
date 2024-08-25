@@ -170,8 +170,8 @@ function App() {
 		ctx.clearRect(0, 0, ctx.canvas.width, ctx.canvas.height)
 	}
 
-	const hero1Spells = firstSpells
-	const hero2Spells = secondSpells
+	const hero1Spells = []
+	const hero2Spells = []
 
 	setInterval(() => {
 		hero1Spells.push(new Spell(Hero1.color, Hero1.x + 50, Hero1.y, 1))
