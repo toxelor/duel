@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState} from 'react';
+import { useEffect, useState} from 'react';
 import HeroMenu from './HeroMenu/HeroMenu';
 import useCanvas from './useCanvas';
 import styles from './App.module.css'
@@ -28,7 +28,7 @@ function App() {
 													firerate: 5, 
 													color: "#C49818", 
 													speed: 2, 
-													startX: 986, 
+													startX: window.innerWidth - 550, 
 													startY: 500,
 													direction: -1
 												})
