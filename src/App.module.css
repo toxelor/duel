@@ -1,0 +1,82 @@
+.App {
+    overflow: hidden;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #fffaed;
+    gap: 5px;
+    font-family: Roboto, Arial;
+}
+
+.canvas {
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.1);
+    width: 100% - 400px;
+    height: 590px;
+    border-radius: 3px;
+}
+
+.points_div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3px;
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.2);
+    padding: 30px;
+}
+
+.points {
+    font-size: 30px;
+
+}
+
+.canvas_block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.settings {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 50%;
+}
+
+.setting {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+input[type="range"] {
+    margin-top: 15px;
+    -webkit-appearance: none;
+    appearance: none;
+    background: transparent;
+    cursor: pointer;
+}
+
+input[type="range"]::-webkit-slider-runnable-track {
+    background: #041c3e00;
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.2);
+    height: 0.5rem;
+    border-radius: 50px;
+}
+
+
+input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    margin-top: -4px; 
+    background-color: #96daea;
+    height: 1rem;
+    width: 1rem;
+    border-radius: 50px;    
+ }
